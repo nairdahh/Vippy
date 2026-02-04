@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/vippy-logo-and-text.png" alt="Vippy Logo">
+</p>
+
 # Vippy Template
 
 Vippy is a template designed for building your own virtual-photography portfolio (I mean.. it could also be IRL photography) and personal website. Built with a modular architecture, it offers seamless configuration through an intuitive admin panel, allowing for deep customization to match your unique style and specific needs.
@@ -67,4 +71,4 @@ To enable image uploading functionality for the Virtual Photography module, you 
 Once configured, the admin panel will automatically handle image uploads to your bucket.
 
 ## Credits
-A special thanks to nico for the initative and recomandations + yousinix for his portfolYOU theme which this template is based one.
+A special thanks to **[@originalnicodr](https://github.com/originalnicodr)** for the initiative and recommendations + **[@yousinix](https://github.com/YoussefRaafatNasry)** for his portfolYOU theme which this template is based one.
