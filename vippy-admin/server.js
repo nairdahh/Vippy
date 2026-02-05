@@ -457,7 +457,6 @@ app.post('/vippy/settings', upload.single('favicon'), async (req, res) => {
         config.author = {
             ...config.author,
             name: req.body.author_name
-            // email removed as per request
         };
 
         // Handle Theme Color
@@ -471,10 +470,7 @@ app.post('/vippy/settings', upload.single('favicon'), async (req, res) => {
             const customColor = req.body.theme_color_custom;
             if (customColor) {
                 logData.push(`Setting custom theme color: ${customColor}`);
-                // For custom, we use the same color for both or we could calculate a variant.
-                // Using the same color for now as per "custom color" request which implies a single pick.
-                // Or maybe we should just darken it slightly for light mode? 
-                // Let's use the same color for simplicity and predictability unless we have a darkening function.
+
                 await updateThemeColor(customColor, customColor);
             }
         }
